@@ -1717,8 +1717,8 @@
       "id": "wiwdmymx",
       "homeId": "68qk5o04",
       "awayId": "xl0muskr",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 1,
       "date": "",
       "round": "17",
       "note": ""
