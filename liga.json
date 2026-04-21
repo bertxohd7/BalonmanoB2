@@ -1857,8 +1857,8 @@
       "id": "iatyo9j6",
       "homeId": "darmlvm1",
       "awayId": "bv27b0lx",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 1,
+      "awayGoals": 3,
       "date": "",
       "round": "18",
       "note": ""
@@ -1881,6 +1881,106 @@
       "awayGoals": 0,
       "date": "",
       "round": "18",
+      "note": ""
+    },
+    {
+      "id": "uovtcln4",
+      "homeId": "77zi3862",
+      "awayId": "tusr1ha9",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "rguqjydg",
+      "homeId": "ck3ejp63",
+      "awayId": "xl0muskr",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "cmj4xzkx",
+      "homeId": "75dbfhx1",
+      "awayId": "1fnd7n9g",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "1pmiby3q",
+      "homeId": "mzkpmq3p",
+      "awayId": "ues4lw4d",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "ekcq53f1",
+      "homeId": "ratyxtpf",
+      "awayId": "ar63kt4u",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "lk0ghq07",
+      "homeId": "68qk5o04",
+      "awayId": "uygzt5ph",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "ucr0oags",
+      "homeId": "l8n2nwzf",
+      "awayId": "darmlvm1",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "dd00uou1",
+      "homeId": "ugjhs6bt",
+      "awayId": "db5keuqz",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "fg9ndgo1",
+      "homeId": "bv27b0lx",
+      "awayId": "zjozyo9e",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "date": "",
+      "round": "19",
+      "note": ""
+    },
+    {
+      "id": "erursdkl",
+      "homeId": "g7qvu53h",
+      "awayId": "of9ttein",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "date": "",
+      "round": "19",
       "note": ""
     }
   ],
