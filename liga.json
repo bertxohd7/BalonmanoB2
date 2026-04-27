@@ -1,5 +1,5 @@
 {
-  "leagueName": "2025 - Balonmano Mixto Cadete 2016",
+  "leagueName": "2025-2026 - Balonmano Mixto Benjamin 2016",
   "teams": [
     {
       "id": "bv27b0lx",
@@ -1867,8 +1867,8 @@
       "id": "9dhpzmz0",
       "homeId": "of9ttein",
       "awayId": "ugjhs6bt",
-      "homeGoals": 0,
-      "awayGoals": null,
+      "homeGoals": 3,
+      "awayGoals": 0,
       "date": "",
       "round": "18",
       "note": ""
@@ -2037,8 +2037,8 @@
       "id": "dzo77040",
       "homeId": "bv27b0lx",
       "awayId": "ar63kt4u",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "date": "",
       "round": "20",
       "note": ""
@@ -2047,8 +2047,8 @@
       "id": "vdfrvnm4",
       "homeId": "l8n2nwzf",
       "awayId": "zjozyo9e",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 4,
+      "awayGoals": 0,
       "date": "",
       "round": "20",
       "note": ""
@@ -2067,6 +2067,16 @@
       "id": "j67gq4o1",
       "homeId": "ugjhs6bt",
       "awayId": "darmlvm1",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "date": "",
+      "round": "20",
+      "note": ""
+    },
+    {
+      "id": "pzhazco4",
+      "homeId": "ratyxtpf",
+      "awayId": "1fnd7n9g",
       "homeGoals": 4,
       "awayGoals": 0,
       "date": "",
