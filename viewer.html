@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Liga de balonmano - Solo lectura</title>
 <style>
+  .gold {
+  background: #fff4c2;
+}
+
+.silver {
+  background: #eeeeee;
+}
+
+.bronze {
+  background: #f3d2b3;
+}
   :root{
     --bg:#f7f7f8;--fg:#111;--muted:#666;--card:#fff;--border:#e6e6e6;--pri:#111;--pri-fore:#fff;
   }
@@ -26,6 +37,9 @@
 <body>
 <div class="container">
   <header class="card">
+    <div id="seasonEnd" style="text-align:center; font-size:18px; margin-bottom:10px; font-weight:bold; color:#0a7;">
+  🏆 Temporada finalizada
+</div>
     <div class="flex">
       <div>
         <h1 id="leagueTitle">Liga de balonmano</h1>
@@ -150,10 +164,15 @@
       return;
     }
     $("#noStandingsMsg").style.display = "none";
-    rows.forEach(r=>{
-      const tr = document.createElement("tr");
-      tr.innerHTML = `
-        <td>${r.Pos}</td>
+   rows.forEach(r=>{
+    const tr = document.createElement("tr");
+
+    if (r.Pos === 1) tr.className = "gold";
+      else if (r.Pos === 2) tr.className = "silver";
+        else if (r.Pos === 3) tr.className = "bronze";
+
+        tr.innerHTML = `
+        <td>${r.Pos === 1 ? "🥇 1" : r.Pos === 2 ? "🥈 2" : r.Pos === 3 ? "🥉 3" : r.Pos}</td>
         <td><b>${(r.team || "").replace(/</g,'&lt;')}</b></td>
         <td>${r.PJ}</td><td>${r.G}</td><td>${r.E}</td><td>${r.P}</td>
         <td>${r.GF}</td><td>${r.GC}</td><td>${r.DG}</td><td><b>${r.Pts}</b></td>
@@ -250,6 +269,34 @@
   // cargar datos al inicio
   loadData();
 })();
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script>
+window.addEventListener("load", () => {
+  // Lanza confeti durante 2 segundos
+  const duration = 2000;
+  const end = Date.now() + duration;
+
+  (function frame() {
+    confetti({
+      particleCount: 3,
+      angle: 60,
+      spread: 55,
+      origin: { x: 0 }
+    });
+    confetti({
+      particleCount: 3,
+      angle: 120,
+      spread: 55,
+      origin: { x: 1 }
+    });
+
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  })();
+});
 </script>
 </body>
 </html>
